@@ -20,10 +20,8 @@ bool finished = false;
 int steppedx = 0; int steppedy = 0;
 int dx[] = {-1,-1,0,1,1,1,-1,-1};
 int dy[] = {0,1,1,1,0,-1,0,-1};
-/*h184N*/
-//todo: ERROR: CheckVis not working properly: CheckVIS (RE-CHECKED: AT CHECKVIS)
-//todo: ERROR: cnt counting problem: CHECKVIS (RE-CHECKED: ERROR AT CHECKVIS)
-//todo: SUGGEST: ADD MIN_LENGTH to attack: attack(bug)
+/*h188N*/
+//todo: SUGGEST: Make the chessboard more user-friendly
 
 /* Sub Functions */
 void help(){
@@ -1241,8 +1239,7 @@ void run(int x, int y){
     }
 }
 int main() {
-    //h87ND
-
+    //h92ND
     cout << "This is Beta V.2.2" << endl;
     for (int i = 1; i <= 20; i++) {
         for (int j = 1; j <= 20; j++) {
